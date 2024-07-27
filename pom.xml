@@ -76,9 +76,9 @@
                   <version>1.3.9-SNAPSHOT</version>
                 </path>
               </annotationProcessorPaths>
-              <!-- <annotationProcessors>
+              <annotationProcessors>
                 <annotationProcessor>edu.ucr.cs.riple.taint.ucrtainting.UCRTaintingChecker</annotationProcessor>
-              </annotationProcessors> -->
+              </annotationProcessors>
               <compilerArgs>
                 <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>
                 <arg>-J--add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED</arg>
@@ -99,8 +99,6 @@
                   -AserializationConfigPath=/home/nima/Developer/taint-benchmarks/securibenchh20180525/annotator-out/checker.xml</arg>
                 <arg>-XDcompilePolicy=simple</arg>
                 <arg>-parameters</arg>
-                <arg>
-                  -Xplugin:ErrorProne -XepDisableAllChecks -Xep:AnnotatorScanner:ERROR -XepOpt:AnnotatorScanner:ConfigPath=/home/nima/Developer/taint-benchmarks/securibenchh20180525/annotator-out/scanner.xml</arg>
               </compilerArgs>
             </configuration>
           </plugin>
