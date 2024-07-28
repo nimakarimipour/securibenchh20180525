@@ -1,0 +1,10 @@
+2024-07-27T14:21:57.709538:cd /home/nima/Developer/taint-benchmarks/securibenchh20180525 && ./annotator-command.sh
+
+2024-07-27T14:22:01.706184:cd /home/nima/Developer/taint-benchmarks/securibenchh20180525 && ./annotator-command.sh
+
+2024-07-27T14:22:06.419273:cd /home/nima/Developer/taint-benchmarks/securibenchh20180525 && ./annotator-command.sh
+
+2024-07-27T14:22:11.102964:cd /home/nima/Developer/taint-benchmarks/securibenchh20180525 && ./annotator-command.sh
+
+2024-07-27T14:22:15.432283:cd /home/nima/Developer/taint-benchmarks/securibenchh20180525 && ./annotator-command.sh
+

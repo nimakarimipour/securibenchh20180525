@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import securibench.micro.BasicTestCase;
 import securibench.micro.MicroTestCase;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /** 
  *  @servlet description="unsafe redirect" 
@@ -19,7 +20,7 @@ import securibench.micro.MicroTestCase;
 public class Basic24 extends BasicTestCase implements MicroTestCase {
     private static final String FIELD_NAME = "name";
 
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+    protected void doGet(@RUntainted HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String s = req.getParameter(FIELD_NAME);
         String name = s.toLowerCase(Locale.UK);
 

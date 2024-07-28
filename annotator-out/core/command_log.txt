@@ -1,0 +1,2 @@
+2024-07-27T14:21:34.614682:cd /home/nima/Developer/taint-benchmarks/securibenchh20180525 && ./annotator-command.sh
+
